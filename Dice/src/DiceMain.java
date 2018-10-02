@@ -1,9 +1,11 @@
 
 public class DiceMain {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public static void main(String[] args)
+	{
+		Dice dice = new Dice(); 
+		System.out.println(dice.roll());
+		System.out.println("rolls: "+Math.getNumRolls());
 	}
 
 }
